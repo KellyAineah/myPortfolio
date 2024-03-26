@@ -1,0 +1,50 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+
+h1{
+    color: black;
+    font-style: italic;
+    
+
+}
+h2{
+    color: purple;
+    font-weight: bold;
+    font-size: 45px;
+    margin-left: 10%;
+
+}
+img{
+    border-radius: 500px;
+    width: 500px;
+    margin-left: 15%;
+    border-style: none;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 55%;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+nav ul li a{
+    color: #000;
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: red
+}
