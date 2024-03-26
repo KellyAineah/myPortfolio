@@ -1,5 +1,5 @@
 body{
-    background-color: bisque;
+    background-color: white;
     
 }
 
@@ -84,12 +84,36 @@ nav ul li a:hover{
 }
 .container2{
     font-size: 350%;
+    display: flex;
+    
     
 }
 .html5{
-    font-size: 200%;
-    margin-bottom: 50%;
+    font-size: 100%;
+    margin-right: 30%;
 }
 .css3{
-    font-size: 200%;
+    font-size: 100%;
+    margin-top: 30%;
+    margin-right: 35%;
+}
+.js{
+    font-size: 100%;
+    margin-right: 30%;
+
+}
+.header3{
+    font-size: larger;
+}
+.header3 p{
+    font-style: italic;
+    font-weight: lighter;
+}
+.cont{
+    padding: 20%;
+}
+.cont row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
