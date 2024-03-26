@@ -1,5 +1,6 @@
 body{
     background-color: bisque;
+    
 }
 
 
@@ -13,11 +14,13 @@ body{
 .header2{
     color: brown;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 10%;
+    
 
 }
-img{
+
+.header2 img{
     border-radius: 500px;
     width: 500px;
     margin-left: 15%;
@@ -47,4 +50,46 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: red
+}
+#about{
+    
+    padding: 200px 0;
+    min-height: 10px;
+}
+#about .container .row img{
+    width: 45%;
+    border-radius: 20%;
+    height: 200%;
+    margin-left: 10%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#about .container .row h1{
+    
+    color: black;
+    font-size: 50 px;
+}
+.about-col-1{
+    flex-basis: 35%;
+    
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.about-col-2 p{
+    font-size: 20px;
+}
+.container2{
+    font-size: 350%;
+    
+}
+.html5{
+    font-size: 200%;
+    margin-bottom: 50%;
+}
+.css3{
+    font-size: 200%;
 }
